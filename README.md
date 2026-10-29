@@ -12,9 +12,9 @@ Tugas Workshop Deep Learning — Teknik Telekomunikasi ITERA.
 | Anggota | [Nama Lengkap] | [NIM] |
 | Anggota | [Nama Lengkap] | [NIM] |
 
-- **Kelas:** [RA / RB]
-- **Lokasi kelompok:** [kode] — [nama lokasi] (digit terakhir NIM terkecil)
-- **Laporan:** [`laporan-latex/main.pdf` atau `laporan-typst/main.pdf`]
+- **Kelas:** [RB]
+- **Lokasi kelompok:** [0] — [nama lokasi] (Stazione Centrale)
+- **Laporan:** [`laporan-latex/main.pdf`]
 
 ## Cara Menjalankan
 
@@ -35,9 +35,10 @@ Perangkat yang kami pakai: [contoh: laptop CPU Intel i5 / Google Colab T4], tota
 
 ```
 tugas_ablasi.ipynb      notebook eksperimen (di-commit beserta output)
-data/                   data trafik per jam (Duomo + 10 lokasi tugas)
-hasil/                  CSV seluruh run, tabel, dan grafik
-laporan-latex/ atau laporan-typst/   sumber laporan + PDF
+data/                   Berisi dataset trafik seluler Milano
+hasil/                  Berisi grafik hasil eksperimen ablasi dan grafik konvergensi
+laporan-latex/ atau laporan-typst/   file sumber laTeX untuk penyusunan laporan format IEEE
+starter/                Skrip utama pelatihan dan evaluasi model 
 ```
 
 ## Data
